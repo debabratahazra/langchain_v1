@@ -1,0 +1,14 @@
+Initialize the project:
+uv init
+
+Create a py virtual env:
+uv venv
+
+Activate the py virtual env:
+.\.venv\Scripts\activate
+
+Create the requirements.txt and run this to install it:
+uv add -r requirements.txt
+
+Install any Py Lib to this project:
+uv add <py-lib-name>
